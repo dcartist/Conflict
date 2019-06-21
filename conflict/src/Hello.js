@@ -10,7 +10,7 @@ class Hello extends Component {
     render() {
         return (
             <div>
-                <p>Hello {name}</p>
+                <p>Hello {this.state.name}</p>
             </div>
         );
     }
